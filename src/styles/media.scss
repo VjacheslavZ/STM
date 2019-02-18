@@ -1,0 +1,215 @@
+@media screen and (max-width: 1199px) {
+  .cardWrap {
+    justify-content: center;
+  }
+  .container {
+    overflow: hidden;
+  }
+  .tableWrap {
+    overflow-x: scroll;
+    display: block;
+  }
+  .sortByControls {
+    align-items: flex-end;
+  }
+  .sortByTitle {
+    margin-bottom: 7px;
+  }
+  .sort__wrap {
+    align-items: flex-end;
+    .filter_wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: initial;
+    }
+    .filter_wrap + .filter_wrap {
+      margin-left: 5px;
+    }
+  }
+  .filterByMarkFeature span,
+  .filterByDead span,
+  .sortByTitleFilter {
+    margin: 0 21px;
+  }
+  .dropdown .filter_drop-down span {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .sortByTitle {
+    display: none;
+  }
+  .sort__wrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .sort__wrap .filter_wrap + .filter_wrap {
+    margin-left: 0;
+  }
+  .changeView {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .sort__wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sortByControls {
+    width: 100%;
+  }
+
+  .mobile-loader,
+  .loader {
+    position: relative;
+    display: block;
+  }
+
+  .no-results {
+    top: 0;
+  }
+
+  .form,
+  .sortByTitle,
+  .changeView {
+    display: none;
+  }
+
+  .sortByControls .sort__wrap {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .filterByDead {
+    display: block;
+  }
+
+  .divider {
+    display: block;
+  }
+
+  .filterByDead > span {
+    display: block;
+    line-height: 20px;
+    margin-left: 0;
+  }
+
+  .sortBy > span {
+    display: block;
+    line-height: 20px;
+  }
+
+  .form-mobile {
+    display: block;
+    position: absolute;
+    width: 100vw;
+    background-color: #161616;
+    left: 0;
+    padding: 6px 10px;
+    top: 0px;
+  }
+
+  .textCenter.info {
+    margin-bottom: 35px;
+  }
+
+  .searchIc {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    left: auto;
+    color: #fff;
+  }
+
+  .logo {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 8px;
+    color: #161616;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+  }
+
+  .input-search {
+    display: inline-block;
+    width: 220px;
+    margin: 6px;
+    background-color: #161616;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .search-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .cardWrap {
+    margin-left: 0;
+  }
+
+  .cardWrap .card {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .imgCardWrap span {
+    margin-top: 8px;
+  }
+
+  .grid_info .mark_owner {
+    margin-top: 0;
+  }
+
+  .card-logo {
+    margin-top: 8px;
+  }
+
+  .pagination li:first-child {
+    display: none;
+  }
+
+  .pagination li:last-child {
+    display: none;
+  }
+
+  .footer {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .footer .contacts {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .textCenter.title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 420px){
+  .__react_component_tooltip.place-top{
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .input-search {
+    width: 180px;
+  }
+}

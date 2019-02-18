@@ -1,0 +1,212 @@
+.form-mobile {
+  display: none;
+}
+
+.title {
+  font-size: 43px;
+  font-weight: bold;
+  margin-top: 66px;
+  color: #2f2f2f;
+  letter-spacing: 0px;
+}
+
+.info {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 65px;
+}
+
+.form {
+  margin-top: 10px;
+  padding: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 17px 0 #bebebe87;
+  border-radius: 3px;
+}
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.formGroup {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.searchIc {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: 22px;
+  color: #bebebe;
+}
+
+.input-search {
+  padding: 5px 15px 5px 35px;
+  border: 0 solid transparent;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  &::placeholder {
+    color: #bebebe;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: #bebebe;
+  }
+  &::-ms-input-placeholder {
+    color: #bebebe;
+  }
+  &:focus {
+    outline-width: 0;
+  }
+}
+
+.searchButton {
+  background-color: #1c9cd2;
+  transition: background-color .3s ease;
+  position: absolute;
+  right: -9px;
+  top: -8px;
+  padding: 14px 34px;
+  border: none;
+  font-weight: 700;
+  font-size: 15px;
+  &:hover {
+    background-color: #1b75a6;
+  }
+}
+
+.sortByTitle {
+  font-size: 18px;
+  font-weight: 700;
+}
+.sortByControls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  .dropdown-toggle {
+    padding-left: 20px;
+    padding-right: 25px;
+  }
+}
+
+.filter_drop-down .sortBy span {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.dropdown .filter_drop-down span {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.sortByTitleFilter {
+  margin: 0 10px;
+}
+
+.changeView {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  .iconWrap {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    opacity: .50;
+    transition: opacity .3s ease;
+    &:not(.active):hover {
+      cursor: pointer;
+    }
+    &.active {
+      opacity: 1;
+      background-color: #fff;
+    }
+  }
+}
+
+.sort__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.iconWrap svg {
+  font-size: 20px;
+}
+
+.filterByDead {
+  display: flex;
+  margin-bottom: 0;
+  align-items: center;
+  span {
+    font-weight: 100;
+    margin: 0 10px;
+  }
+}
+
+.filterByMarkFeature {
+  span {
+    font-weight: 100;
+    margin: 0 10px;
+  }
+  .filter_drop-down {
+    min-width: 300px;
+  }
+}
+
+.divider {
+  display: none;
+}
+
+.mobile-loader {
+  display: none;
+}
+
+.dropdown-menu > {
+  .active > a {
+    background-color: #1c9cd2;
+  }
+  li > a:focus {
+    color: #f5f5f5a1;
+  }
+}
+
+.filter_drop-down {
+  min-width: 120px;
+  text-align: left;
+  padding-left: 20px;
+}
+.dropdown .filter_drop-down span {
+  display: none;
+}
+.dropdown.btn-group {
+  &:after {
+    content: '';
+    width: 16px;
+    height: 100%;
+    background: url("../chevron-arrow-down.png") no-repeat center center;
+    position: absolute;
+    z-index: 999;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

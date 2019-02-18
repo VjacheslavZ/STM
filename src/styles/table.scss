@@ -1,0 +1,117 @@
+.tableWrap {
+  margin-bottom: 0;
+  &.table-condensed>thead>tr>th {
+    padding-bottom: 12px;
+  }
+  &.table>tbody>tr>td {
+    vertical-align: inherit;
+  }
+}
+
+.table__head {
+  vertical-align: top !important;
+  padding-right: 50px !important;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 100;
+  &.textColor {
+    color: #808080;
+  }
+}
+
+.tbody {
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+.niceClassificationWrap {
+  max-width: 133px;
+  word-break: break-all;
+}
+
+.serialNumber {
+  color: $blue;
+  font-weight: 600;
+}
+
+.verify {
+  color: $green;
+  font-weight: 600;
+}
+
+.logoCompany {
+  img {
+    max-height: 50px;
+  }
+}
+
+.table-condensed > tbody > tr > td {
+  text-align: center;
+}
+
+.table_name-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.table_image-wrap {
+  min-width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 0 black;
+  height: 70px;
+}
+
+.table_name_owner {
+  color: #808080;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.table_name_info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 15px;
+  width: 110px;
+}
+
+.live_status_ic {
+  color: #fff;
+  border-radius: 2px;
+  width: 60px;
+  height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.live_status_live {
+  background-color: $green;
+}
+
+.live_status_dead {
+  background-color: $red;
+}
+
+.table-condensed > tbody > tr > td {
+  text-align: left;
+}
+
+.table-condensed>tbody>tr>td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.__react_component_tooltip.place-top{
+  display: block;
+  max-width: 400px;
+}
+
+.startDate,
+.card_info_text {
+  font-size: 0.95em;
+}

@@ -1,0 +1,45 @@
+body {
+  background-color: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inner-wrapper {
+  padding-bottom: 250px;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.no-results {
+  position: absolute;
+  top: 440px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.preloader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.__react_component_tooltip {
+  max-width: 400px;
+}
+
+.read_more {
+  &:hover {
+    cursor: pointer;
+  }
+}
